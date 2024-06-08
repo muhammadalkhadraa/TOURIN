@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    background-image: url("cairo_background.jpg");  /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: teal;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.258);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  h1{
+    margin-left: 25px;
+  }
+}
+.main-page{
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 50px;
+}
+.places{
+    text-align: center;
+    background-color: rgb(239, 218, 190);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .item{
+        margin: 20px;
+        border-radius: 20px;
+        width: 30%;
+        padding-bottom: 15px;
+        background-color: goldenrod;
+        img{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .second-a{
+            margin: 10px;
+            padding: 25px;
+        }
+    }
+}
+footer{
+    text-align: center;
+    background-color: rgb(6, 28, 28);
+}
+.contact-us{
+    background-color: antiquewhite;
+    font-weight: 800;
+    font-size: 20px;
+    color: brown;
+}
